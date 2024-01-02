@@ -1,0 +1,7 @@
+
+# Example configuration.yaml entry
+command_line:      
+  - sensor:
+      name: CPU Load
+      command: "cat /proc/loadavg | awk '{print $1}'"
+      unit_of_measurement: "load"
